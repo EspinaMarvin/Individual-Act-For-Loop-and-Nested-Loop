@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
   char ch; // Variable to store user input
     int count = 0; // Counter to track the number of valid characters entered

@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  char ch; // Variable to store user input
+    int count = 0; // Counter to track the number of valid characters entered
+    cout << "Please enter 5 characters (enter 'n' to exit):" << endl;
+// Loop to take up to 5 character inputs
+    for (int i = 0; i < 5; i++) {
+    cin >> ch; // Read a character from user input
+// Check if the user entered 'n', exit the loop if true
+    if (ch == 'n') {
+    cout << "Exiting loop..." << endl;
+break;
+}
+    count++; // Increment count for valid characters
+    cout << "You entered: " << ch << endl; // Display entered character
+}
+// Display the total number of characters entered before exiting
+    cout << "Total characters entered: " << count << endl;
+
+    return 0;
+}

@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
-
 int main() {
  // Loop through the numbers from 0 to 5
- for (int i = 0; i <= 5; i++) {
- cout << "Multiplication Table for " << i << ":\n";
+   for (int i = 0; i <= 5; i++) {
+   cout << "Multiplication Table for " << i << ":\n";
  // Loop to generate the multiplication table for each number
- for (int j = 0; j <= 10; j++) {
- cout << i << " x " << j << " = " << i * j << endl;
+   for (int j = 0; j <= 10; j++) {
+   cout << i << " x " << j << " = " << i * j << endl;
  }
- cout << "\n"; // Print a newline for better readability
+   cout << "\n"; // Print a newline for better readability
  }
  return 0;
 }

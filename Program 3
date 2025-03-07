@@ -1,0 +1,15 @@
+#include <iostream>
+int main() {
+ int start = 5; // starting value of the series
+ int increment = 3; // increment value
+ int end = 50; // last value in the series
+ int sum = 0; // to hold the sum
+
+ // loop to print and calculate the series
+ for (int i = start; i <= end; i += increment) {
+ std::cout << i << std::endl; // printing each number in the series
+ sum += i; // adding to the sum
+ }
+ std::cout << "Sum of the series: " << sum << std::endl; // printing the sum
+ return 0;
+}
